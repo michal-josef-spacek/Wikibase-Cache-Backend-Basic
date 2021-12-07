@@ -47,8 +47,8 @@ sub _load_data {
 	while (my $data = <DATA>) {
 		chomp $data;
 		my ($qid, $label, $description) = $dsv->parse_line($data);
-		$self->{'static'}->{$qid}->{'property_label'} = $label;
-		$self->{'static'}->{$qid}->{'property_description'} = $description;
+		$self->{'static'}->{$qid}->{'label'} = $label;
+		$self->{'static'}->{$qid}->{'description'} = $description;
 	}
 
 	return;

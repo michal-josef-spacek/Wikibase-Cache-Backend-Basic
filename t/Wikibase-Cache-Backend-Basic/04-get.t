@@ -7,9 +7,9 @@ use Wikibase::Cache::Backend::Basic;
 
 # Test.
 my $obj = Wikibase::Cache::Backend::Basic->new;
-my $ret = $obj->get('property_label', 'Q11573');
+my $ret = $obj->get('label', 'Q11573');
 is($ret, 'metre', 'Get label for Q11573 (metre).');
 
 # Test.
-$ret = $obj->get('property_description', 'Q11573');
+$ret = $obj->get('description', 'Q11573');
 is($ret, 'SI unit of length', 'Get description for Q11573 (SI unit of length).');
