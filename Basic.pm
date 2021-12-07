@@ -81,3 +81,8 @@ Q355198:pixel:physical point in a raster image
 Q178674:nanometre:unit of length
 Q7673190:table cell:grouping within a chart table used for storing information or data
 Q70280567:Prussian foot:unit of length
+# Time precision
+Q12138:Gregorian calendar:arithmetic solar calendar system, with a 365-day year, plus one day intercalated into one of the 12 month during some years; internationally the most widely accepted civil calendar
+Q1985727:proleptic Gregorian calendar:extension of the Gregorian calendar before its introduction
+Q11184:Julian calendar:Calendar introduced by Julius Caesar in 45 BC
+Q1985786:proleptic Julian calendar:extension of the regular Julian calendar
