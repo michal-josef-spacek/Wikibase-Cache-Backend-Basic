@@ -65,7 +65,14 @@ sub _save {
 __DATA__
 # Basic properties
 P31:instance of:that class of which this subject is a particular example and member
+P212:ISBN-13:identifier for a book (edition), thirteen digit
+P248:stated in:to be used in the references field to refer to the information document or database in which a claim is made; for qualifiers use P805; for the type of document in which a claim is made use P3865
 P279:subclass of:next higher class or type; all instances of these items are instances of those items; this item is a class (subset) of that item. Not to be confused with P31 (instance of)
+P577:publication date:date or point in time when a work was first published or released
+P813:retrieved:date or point in time that information was retrieved from a database or website (for use in online sources)
+P1104:number of pages:number of pages in an edition of a written work; see allowed units constraint for valid values to use for units in conjunction with a number
+P1476:title:published name of a work, such as a newspaper article, a literary work, piece of music, a website, or a performance work
+P3184:Czech National Bibliography book ID:identifier for a book at the Czech National Library
 # Some basic quantities
 Q174728:centimetre:unit of length equal to 1/100 of a metre
 Q11573:metre:SI unit of length
