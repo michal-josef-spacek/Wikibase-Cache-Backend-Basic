@@ -67,6 +67,7 @@ __DATA__
 P31:instance of:that class of which this subject is a particular example and member
 P50:author:main creator(s) of a written work (use on works, not humans); use P2093 when Wikidata item is unknown or does not exist
 P110:illustrator:person drawing the pictures or taking the photographs in a book
+P123:publisher:organization or person responsible for publishing books, periodicals, printed music, podcasts, games or software
 P212:ISBN-13:identifier for a book (edition), thirteen digit
 P248:stated in:to be used in the references field to refer to the information document or database in which a claim is made; for qualifiers use P805; for the type of document in which a claim is made use P3865
 P279:subclass of:next higher class or type; all instances of these items are instances of those items; this item is a class (subset) of that item. Not to be confused with P31 (instance of)
