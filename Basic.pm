@@ -65,10 +65,15 @@ sub _save {
 __DATA__
 # Basic properties
 P31:instance of:that class of which this subject is a particular example and member
+P50:author:main creator(s) of a written work (use on works, not humans); use P2093 when Wikidata item is unknown or does not exist
+P110:illustrator:person drawing the pictures or taking the photographs in a book
 P212:ISBN-13:identifier for a book (edition), thirteen digit
 P248:stated in:to be used in the references field to refer to the information document or database in which a claim is made; for qualifiers use P805; for the type of document in which a claim is made use P3865
 P279:subclass of:next higher class or type; all instances of these items are instances of those items; this item is a class (subset) of that item. Not to be confused with P31 (instance of)
+P291:place of publication:geographical place of publication of the edition (use 1st edition when referring to works)
+P407:language of work or name:language associated with this creative work (such as books, shows, songs, or websites) or a name (for persons use "native language" (P103) and "languages spoken, written or signed" (P1412))
 P577:publication date:date or point in time when a work was first published or released
+P655:translator:agent who adapts any kind of written text from one language to another
 P813:retrieved:date or point in time that information was retrieved from a database or website (for use in online sources)
 P1104:number of pages:number of pages in an edition of a written work; see allowed units constraint for valid values to use for units in conjunction with a number
 P1476:title:published name of a work, such as a newspaper article, a literary work, piece of music, a website, or a performance work
