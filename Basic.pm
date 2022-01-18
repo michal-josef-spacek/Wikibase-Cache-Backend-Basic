@@ -76,9 +76,12 @@ P407:language of work or name:language associated with this creative work (such 
 P577:publication date:date or point in time when a work was first published or released
 P655:translator:agent who adapts any kind of written text from one language to another
 P813:retrieved:date or point in time that information was retrieved from a database or website (for use in online sources)
+P957:ISBN-10:former identifier for a book (edition), ten digits. Used for all publications up to 2006 (convertible to ISBN-13 for some online catalogs; useful for old books or fac-similes not reedited since 2007)
 P1104:number of pages:number of pages in an edition of a written work; see allowed units constraint for valid values to use for units in conjunction with a number
 P1476:title:published name of a work, such as a newspaper article, a literary work, piece of music, a website, or a performance work
+P1680:subtitle:for works, when the title is followed by a subtitle
 P3184:Czech National Bibliography book ID:identifier for a book at the Czech National Library
+P8752:Kramerius of Moravian Library UUID:UUID identifier for scanned item (book edition/periodical/page) in Moravian Library
 # Some basic quantities
 Q174728:centimetre:unit of length equal to 1/100 of a metre
 Q11573:metre:SI unit of length
