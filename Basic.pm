@@ -66,6 +66,8 @@ __DATA__
 # Basic properties
 P31:instance of:that class of which this subject is a particular example and member
 P50:author:main creator(s) of a written work (use on works, not humans); use P2093 when Wikidata item is unknown or does not exist
+P98:editor:editor of a compiled work such as a book or a periodical (newspaper or an academic journal)
+P106:occupation:occupation of a person; see also "field of work" (Property:P101), "position held" (Property:P39)
 P110:illustrator:person drawing the pictures or taking the photographs in a book
 P123:publisher:organization or person responsible for publishing books, periodicals, printed music, podcasts, games or software
 P212:ISBN-13:identifier for a book (edition), thirteen digit
