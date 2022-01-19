@@ -71,6 +71,7 @@ P106:occupation:occupation of a person; see also "field of work" (Property:P101)
 P110:illustrator:person drawing the pictures or taking the photographs in a book
 P123:publisher:organization or person responsible for publishing books, periodicals, printed music, podcasts, games or software
 P212:ISBN-13:identifier for a book (edition), thirteen digit
+P243:OCLC control number:identifier for a unique bibliographic record in OCLC WorldCat
 P248:stated in:to be used in the references field to refer to the information document or database in which a claim is made; for qualifiers use P805; for the type of document in which a claim is made use P3865
 P279:subclass of:next higher class or type; all instances of these items are instances of those items; this item is a class (subset) of that item. Not to be confused with P31 (instance of)
 P291:place of publication:geographical place of publication of the edition (use 1st edition when referring to works)
