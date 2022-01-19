@@ -82,6 +82,7 @@ P957:ISBN-10:former identifier for a book (edition), ten digits. Used for all pu
 P1104:number of pages:number of pages in an edition of a written work; see allowed units constraint for valid values to use for units in conjunction with a number
 P1476:title:published name of a work, such as a newspaper article, a literary work, piece of music, a website, or a performance work
 P1680:subtitle:for works, when the title is followed by a subtitle
+P2679:author of foreword:person who wrote the preface, foreword, or introduction of the book but who isn't an author of the rest of the book
 P3184:Czech National Bibliography book ID:identifier for a book at the Czech National Library
 P8752:Kramerius of Moravian Library UUID:UUID identifier for scanned item (book edition/periodical/page) in Moravian Library
 # Some basic quantities
