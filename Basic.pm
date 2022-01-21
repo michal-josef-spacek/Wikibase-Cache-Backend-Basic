@@ -70,6 +70,7 @@ P98:editor:editor of a compiled work such as a book or a periodical (newspaper o
 P106:occupation:occupation of a person; see also "field of work" (Property:P101), "position held" (Property:P39)
 P110:illustrator:person drawing the pictures or taking the photographs in a book
 P123:publisher:organization or person responsible for publishing books, periodicals, printed music, podcasts, games or software
+P179:part of the series:series which contains the subject
 P212:ISBN-13:identifier for a book (edition), thirteen digit
 P243:OCLC control number:identifier for a unique bibliographic record in OCLC WorldCat
 P248:stated in:to be used in the references field to refer to the information document or database in which a claim is made; for qualifiers use P805; for the type of document in which a claim is made use P3865
@@ -82,6 +83,7 @@ P813:retrieved:date or point in time that information was retrieved from a datab
 P957:ISBN-10:former identifier for a book (edition), ten digits. Used for all publications up to 2006 (convertible to ISBN-13 for some online catalogs; useful for old books or fac-similes not reedited since 2007)
 P1104:number of pages:number of pages in an edition of a written work; see allowed units constraint for valid values to use for units in conjunction with a number
 P1476:title:published name of a work, such as a newspaper article, a literary work, piece of music, a website, or a performance work
+P1545:series ordinal:position of an item in its parent series (most frequently a 1-based index), generally to be used as a qualifier (different from "rank" defined as a class, and from "ranking" defined as a property for evaluating a quality).
 P1680:subtitle:for works, when the title is followed by a subtitle
 P1810:named as:name by which a subject is recorded in a database or mentioned as a contributor of a work
 P2679:author of foreword:person who wrote the preface, foreword, or introduction of the book but who isn't an author of the rest of the book
