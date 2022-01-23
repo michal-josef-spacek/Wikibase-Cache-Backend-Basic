@@ -76,6 +76,7 @@ P243:OCLC control number:identifier for a unique bibliographic record in OCLC Wo
 P248:stated in:to be used in the references field to refer to the information document or database in which a claim is made; for qualifiers use P805; for the type of document in which a claim is made use P3865
 P279:subclass of:next higher class or type; all instances of these items are instances of those items; this item is a class (subset) of that item. Not to be confused with P31 (instance of)
 P291:place of publication:geographical place of publication of the edition (use 1st edition when referring to works)
+P393:edition number:number of an edition (first, second, ... as 1, 2, ...) or event
 P407:language of work or name:language associated with this creative work (such as books, shows, songs, or websites) or a name (for persons use "native language" (P103) and "languages spoken, written or signed" (P1412))
 P577:publication date:date or point in time when a work was first published or released
 P655:translator:agent who adapts any kind of written text from one language to another
