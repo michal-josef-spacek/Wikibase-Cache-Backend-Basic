@@ -64,6 +64,7 @@ sub _save {
 
 __DATA__
 # Basic properties
+P21:sex or gender:sex or gender identity of human or animal. For human: male, female, non-binary, intersex, transgender female, transgender male, agender. For animal: male organism, female organism. Groups of same gender use subclass of (P279)
 P31:instance of:that class of which this subject is a particular example and member
 P50:author:main creator(s) of a written work (use on works, not humans); use P2093 when Wikidata item is unknown or does not exist
 P98:editor:editor of a compiled work such as a book or a periodical (newspaper or an academic journal)
@@ -72,6 +73,7 @@ P110:illustrator:person drawing the pictures or taking the photographs in a book
 P123:publisher:organization or person responsible for publishing books, periodicals, printed music, podcasts, games or software
 P179:part of the series:series which contains the subject
 P212:ISBN-13:identifier for a book (edition), thirteen digit
+P214:VIAF ID:identifier for the Virtual International Authority File database [format: up to 22 digits]
 P243:OCLC control number:identifier for a unique bibliographic record in OCLC WorldCat
 P248:stated in:to be used in the references field to refer to the information document or database in which a claim is made; for qualifiers use P805; for the type of document in which a claim is made use P3865
 P279:subclass of:next higher class or type; all instances of these items are instances of those items; this item is a class (subset) of that item. Not to be confused with P31 (instance of)
@@ -80,6 +82,8 @@ P393:edition number:number of an edition (first, second, ... as 1, 2, ...) or ev
 P407:language of work or name:language associated with this creative work (such as books, shows, songs, or websites) or a name (for persons use "native language" (P103) and "languages spoken, written or signed" (P1412))
 P577:publication date:date or point in time when a work was first published or released
 P655:translator:agent who adapts any kind of written text from one language to another
+P691:NKCR AUT ID:identifier in the Czech National Authority Database (National Library of Czech Republic)
+P735:given name:first name or another given name of this person; values used with the property should not link disambiguations nor family names
 P813:retrieved:date or point in time that information was retrieved from a database or website (for use in online sources)
 P957:ISBN-10:former identifier for a book (edition), ten digits. Used for all publications up to 2006 (convertible to ISBN-13 for some online catalogs; useful for old books or fac-similes not reedited since 2007)
 P1104:number of pages:number of pages in an edition of a written work; see allowed units constraint for valid values to use for units in conjunction with a number
