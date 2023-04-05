@@ -1,7 +1,5 @@
-.travis.yml
 Basic.pm
 Changes
-CONCEPT
 inc/Module/Install.pm
 inc/Module/Install/AuthorRequires.pm
 inc/Module/Install/AuthorTests.pm
