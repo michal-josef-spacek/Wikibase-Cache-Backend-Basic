@@ -8,7 +8,7 @@ use Class::Utils qw(set_params);
 use Error::Pure qw(err);
 use Text::DSV;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 sub new {
 	my ($class, @params) = @_;
