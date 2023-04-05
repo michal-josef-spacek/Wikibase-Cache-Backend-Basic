@@ -16,6 +16,7 @@ Makefile.PL
 MANIFEST			This list of files
 META.yml
 README
+SIGNATURE
 t/Wikibase-Cache-Backend-Basic/01-use.t
 t/Wikibase-Cache-Backend-Basic/02-version.t
 t/Wikibase-Cache-Backend-Basic/03-new.t
