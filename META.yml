@@ -24,6 +24,7 @@ no_index:
 requires:
   Class::Utils: 0.03
   Error::Pure: 0.15
+  Text::DSV: 0
   Wikibase::Cache: 0.01
   perl: 5.6.2
 resources:

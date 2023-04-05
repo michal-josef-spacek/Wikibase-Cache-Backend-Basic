@@ -20,6 +20,7 @@ readme_from 'Basic.pm';
 recursive_author_tests('xt');
 requires 'Class::Utils' => 0.03;
 requires 'Error::Pure' => 0.15;
+requires 'Text::DSV' => 0;
 requires 'Wikibase::Cache' => 0.01;
 resources 'bugtracker' => 'https://github.com/michal-josef-spacek/Wikibase-Cache-Backend-Basic/issues',
 resources 'homepage' => 'https://github.com/michal-josef-spacek/Wikibase-Cache-Backend-Basic';
