@@ -57,7 +57,7 @@ sub _load_data {
 sub _save {
 	my ($self, $type, $key, $value) = @_;
 
-	err "__PACKAGE__ doesn't implement save() method.";
+	err __PACKAGE__." doesn't implement save() method.";
 }
 
 1;
