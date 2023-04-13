@@ -25,7 +25,7 @@ requires:
   Class::Utils: 0.03
   Error::Pure: 0.15
   Text::DSV: 0
-  Wikibase::Cache: 0.01
+  Wikibase::Cache::Backend: 0.03
   perl: 5.6.2
 resources:
   bugtracker: https://github.com/michal-josef-spacek/Wikibase-Cache-Backend-Basic/issues
