@@ -1,7 +1,9 @@
 TODO
 ====
 1. Doc.
-2.
+2. When i use Wikibase::Cache::Backend::Basic->new twice, second version isn't
+object.
+3.
 
 Applied
 =======
