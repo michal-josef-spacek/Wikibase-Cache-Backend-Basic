@@ -86,6 +86,7 @@ P655:translator:agent who adapts any kind of written text from one language to a
 P691:NKCR AUT ID:identifier in the Czech National Authority Database (National Library of Czech Republic)
 P735:given name:first name or another given name of this person; values used with the property should not link disambiguations nor family names
 P813:retrieved:date or point in time that information was retrieved from a database or website (for use in online sources)
+P854:reference URL:should be used for Internet URLs as references. Use "Wikimedia import URL" (P4656) for imports from WMF sites
 P957:ISBN-10:former identifier for a book (edition), ten digits. Used for all publications up to 2006 (convertible to ISBN-13 for some online catalogs; useful for old books or fac-similes not reedited since 2007)
 P1104:number of pages:number of pages in an edition of a written work; see allowed units constraint for valid values to use for units in conjunction with a number
 P1476:title:published name of a work, such as a newspaper article, a literary work, piece of music, a website, or a performance work
