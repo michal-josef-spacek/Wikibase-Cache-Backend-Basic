@@ -82,6 +82,8 @@ P291:place of publication:geographical place of publication of the edition (use 
 P393:edition number:number of an edition (first, second, ... as 1, 2, ...) or event
 P407:language of work or name:language associated with this creative work (such as books, shows, songs, or websites) or a name (for persons use "native language" (P103) and "languages spoken, written or signed" (P1412))
 P577:publication date:date or point in time when a work was first published or released
+P580:start time:time an entity begins to exist or a statement starts being valid
+P582:end time:time an entity ceases to exist or a statement stops being valid
 P655:translator:agent who adapts any kind of written text from one language to another
 P691:NKCR AUT ID:identifier in the Czech National Authority Database (National Library of Czech Republic)
 P735:given name:first name or another given name of this person; values used with the property should not link disambiguations nor family names
