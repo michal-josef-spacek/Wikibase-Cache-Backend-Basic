@@ -1,6 +1,7 @@
 0.04
  - Add P854.
  - Add P580 and P582.
+ - Update Module::Install to 1.21 version.
 
 0.03 2023-04-15T18:41:40+02:00
  - Add P180.
