@@ -5,6 +5,7 @@ use strict;
 use warnings;
 
 use Class::Utils qw(set_params);
+use Data::Handle;
 use Error::Pure qw(err);
 use Text::DSV;
 
@@ -15,6 +16,9 @@ sub new {
 
 	# Create object.
 	my $self = bless {}, $class;
+
+	# Data handler.
+	$self->{'data_fh'} = Data::Handle->new(__PACKAGE__);
 
 	# Process parameters.
 	set_params($self, @params);
@@ -43,7 +47,8 @@ sub _load_data {
 
 	# Read data.
 	my $dsv = Text::DSV->new;
-	while (my $data = <DATA>) {
+	my $fh = $self->{'data_fh'};
+	while (my $data = <$fh>) {
 		chomp $data;
 		my ($qid, $label, $description) = $dsv->parse_line($data);
 		$self->{'static'}->{$qid}->{'label'} = $label;
@@ -84,6 +89,17 @@ Wikibase::Cache::Backend::Basic - Wikibase cache backend to local static basic i
  my $obj = Wikibase::Cache::Backend::Basic->new;
 
 Constructor.
+
+=over 8
+
+=item * C<data_fh>
+
+Data file handler from which is mapping fetched.
+Data file is in format parsed by L<Text::DSV>.
+
+Default value is mapping in this file on the end.
+
+=back
 
 Returns instance of object.
 
@@ -141,6 +157,7 @@ Goes to error.
 =head1 DEPENDENCIES
 
 L<Class::Utils>,
+L<Data::Handle>,
 L<Error::Pure>,
 L<Text::DSV>,
 L<Wikibase::Cache::Backend>.

@@ -15,6 +15,13 @@ METHODS
 
     Constructor.
 
+    *       "data_fh"
+
+            Data file handler from which is mapping fetched. Data file is in
+            format parsed by Text::DSV.
+
+            Default value is mapping in this file on the end.
+
     Returns instance of object.
 
   "get"
@@ -62,7 +69,8 @@ EXAMPLE
      # P31 description: that class of which this subject is a particular example and member
 
 DEPENDENCIES
-    Class::Utils, Error::Pure, Text::DSV, Wikibase::Cache::Backend.
+    Class::Utils, Data::Handle, Error::Pure, Text::DSV,
+    Wikibase::Cache::Backend.
 
 REPOSITORY
     <https://github.com/michal-josef-spacek/Wikibase-Cache-Backend-Basic>
