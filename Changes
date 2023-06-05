@@ -1,4 +1,5 @@
 0.04
+ - Add documentation.
  - Add P854.
  - Add P580 and P582.
  - Update Module::Install to 1.21 version.

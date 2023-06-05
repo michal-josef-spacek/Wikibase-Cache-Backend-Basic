@@ -20,6 +20,7 @@ meta-spec:
 name: Wikibase-Cache-Backend-Basic
 no_index:
   directory:
+    - examples
     - inc
     - t
     - xt

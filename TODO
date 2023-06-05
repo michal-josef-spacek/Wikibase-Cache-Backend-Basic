@@ -1,6 +1,5 @@
 TODO
 ====
-1. Doc.
 2. When i use Wikibase::Cache::Backend::Basic->new twice, second version isn't
 object.
 3. Add possibility for read own data file.
@@ -8,3 +7,5 @@ object.
 
 Applied
 =======
+1. Doc.
+OK [20230605] skim

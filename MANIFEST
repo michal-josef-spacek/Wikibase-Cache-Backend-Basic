@@ -1,5 +1,6 @@
 Basic.pm
 Changes
+examples/p31_label_and_description.pl
 inc/Module/Install.pm
 inc/Module/Install/AuthorRequires.pm
 inc/Module/Install/AuthorTests.pm

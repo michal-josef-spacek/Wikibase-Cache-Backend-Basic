@@ -62,6 +62,112 @@ sub _save {
 
 1;
 
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+Wikibase::Cache::Backend::Basic - Wikibase cache backend to local static basic ids (units, common properties)
+
+=head1 SYNOPSIS
+
+ use Wikibase::Cache::Backend::Basic;
+
+ my $obj = Wikibase::Cache::Backend::Basic->new;
+ my $value = $obj->get($type, $key);
+ $obj->save($type, $key, $value);
+
+=head1 METHODS
+
+=head2 C<new>
+
+ my $obj = Wikibase::Cache::Backend::Basic->new;
+
+Constructor.
+
+Returns instance of object.
+
+=head2 C<get>
+
+ my $value = $obj->get($type, $key);
+
+Get cache value for C<$type> and C<$key>.
+Possible types are 'description' and 'label'.
+
+Returns string.
+
+=head2 C<save>
+
+ $obj->save($type, $key, $value);
+
+Save method is not implemented in this implementation of backend.
+Goes to error.
+
+=head1 ERROR
+
+ new():
+         From Class::Utils::set_params():
+                 Unknown parameter '%s'.
+
+ get():
+         Type '%s' isn't supported.
+         Type must be defined.';
+
+ save():
+         Type '%s' isn't supported.
+         Type must be defined.';
+         Wikibase::Cache::Backend::Basic doesn't implement save() method.
+ 
+
+=head1 EXAMPLE
+
+=for comment filename=p31_label_and_description.pl
+
+ use strict;
+ use warnings;
+
+ use Wikibase::Cache::Backend::Basic;
+
+ my $obj = Wikibase::Cache::Backend::Basic->new;
+
+ # Print out.
+ print 'P31 label: '.$obj->get('label', 'P31')."\n";
+ print 'P31 description: '.$obj->get('description', 'P31')."\n";
+
+ # Output:
+ # P31 label: instance of
+ # P31 description: that class of which this subject is a particular example and member
+
+=head1 DEPENDENCIES
+
+L<Class::Utils>,
+L<Error::Pure>,
+L<Text::DSV>,
+L<Wikibase::Cache::Backend>.
+
+=head1 REPOSITORY
+
+L<https://github.com/michal-josef-spacek/Wikibase-Cache-Backend-Basic>
+
+=head1 AUTHOR
+
+Michal Josef Špaček L<mailto:skim@cpan.org>
+
+L<http://skim.cz>
+
+=head1 LICENSE AND COPYRIGHT
+
+© 2021-2023 Michal Josef Špaček
+
+BSD 2-Clause License
+
+=head1 VERSION
+
+0.04
+
+=cut
+
 __DATA__
 # Basic properties
 P21:sex or gender:sex or gender identity of human or animal. For human: male, female, non-binary, intersex, transgender female, transgender male, agender. For animal: male organism, female organism. Groups of same gender use subclass of (P279)
