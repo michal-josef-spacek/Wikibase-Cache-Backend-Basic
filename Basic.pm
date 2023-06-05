@@ -42,7 +42,6 @@ sub _load_data {
 	my $self = shift;
 
 	# Read data.
-	my $kramerius_data;
 	my $dsv = Text::DSV->new;
 	while (my $data = <DATA>) {
 		chomp $data;
