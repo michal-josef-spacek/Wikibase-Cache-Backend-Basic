@@ -220,6 +220,7 @@ P1810:named as:name by which a subject is recorded in a database or mentioned as
 P2679:author of foreword:person who wrote the preface, foreword, or introduction of the book but who isn't an author of the rest of the book
 P3184:Czech National Bibliography book ID:identifier for a book at the Czech National Library
 P8752:Kramerius of Moravian Library UUID:UUID identifier for scanned item (book edition/periodical/page) in Moravian Library
+P13032:Kramerius of Czech Digital Library UUID:UUID identifier for scanned item (book edition/periodical/page) in Czech Digital Library
 # Some basic quantities
 Q174728:centimetre:unit of length equal to 1/100 of a metre
 Q11573:metre:SI unit of length
