@@ -217,6 +217,7 @@ P1476:title:published name of a work, such as a newspaper article, a literary wo
 P1545:series ordinal:position of an item in its parent series (most frequently a 1-based index), generally to be used as a qualifier (different from "rank" defined as a class, and from "ranking" defined as a property for evaluating a quality).
 P1680:subtitle:for works, when the title is followed by a subtitle
 P1810:named as:name by which a subject is recorded in a database or mentioned as a contributor of a work
+P2241:reason for deprecated rank:qualifier to indicate why a particular statement should have deprecated rank
 P2679:author of foreword:person who wrote the preface, foreword, or introduction of the book but who isn't an author of the rest of the book
 P3184:Czech National Bibliography book ID:identifier for a book at the Czech National Library
 P8752:Kramerius of Moravian Library UUID:UUID identifier for scanned item (book edition/periodical/page) in Moravian Library
