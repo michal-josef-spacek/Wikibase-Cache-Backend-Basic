@@ -182,7 +182,7 @@ BSD 2-Clause License
 
 0.05
 
-=cut
+=cut 
 
 __DATA__
 # Basic properties
